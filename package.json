@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/Mth-bs-park/PSS/issues"
   },
-  "homepage": "https://github.com/Mth-bs-park/PSS#readme"
+  "homepage": "https://github.com/Mth-bs-park/PSS#readme",
+  "devDependencies": {
+    "nodemailer": "2.4.0",
+    "nodemailer-smtp-transport": "2.7.4"
+  }
 }
