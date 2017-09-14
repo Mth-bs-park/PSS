@@ -4,7 +4,7 @@
   "description": "personal study space",
   "main": "./test/index.js",
   "scripts": {
-    "test": "npm ./test/index.js"
+    "test": "node test/index.js"
   },
   "repository": {
     "type": "git",
