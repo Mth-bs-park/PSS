@@ -1,0 +1,26 @@
+{
+  "name": "pss",
+  "version": "1.0.0",
+  "description": "personal study space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mth-bs-park/PSS.git"
+  },
+  "keywords": [
+    "nodemailer",
+    "node",
+    "mail",
+    "mail",
+    "example"
+  ],
+  "author": "beomsoo.park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mth-bs-park/PSS/issues"
+  },
+  "homepage": "https://github.com/Mth-bs-park/PSS#readme"
+}
