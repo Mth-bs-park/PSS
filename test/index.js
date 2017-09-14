@@ -21,7 +21,7 @@ const stmpRunner = {
         }));
 
         const mailOptions = {
-            from: `BXUIP BOT <${user}@gmail.com>`,
+            from: `BOT <${user}@gmail.com>`,
             to: `${config.mail.from.join(',')}`,
             subject: 'Nodemailer 테스트',
             text: '평문 보내기 테스트 '
@@ -32,7 +32,7 @@ const stmpRunner = {
                 return console.log(error)
             }
             console.log('Message %s sent: %s', info.messageId, info.response)
-    });
+        });
     }
 };
 

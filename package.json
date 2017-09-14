@@ -2,9 +2,9 @@
   "name": "pss",
   "version": "1.0.0",
   "description": "personal study space",
-  "main": "index.js",
+  "main": "./test/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm ./test/index.js"
   },
   "repository": {
     "type": "git",
