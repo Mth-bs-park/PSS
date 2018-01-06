@@ -1,2 +1,2 @@
 # PSS
-Private Study Space
+Private Study Rooms
