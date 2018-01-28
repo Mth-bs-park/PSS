@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button onclick="clickRequestBtn()">request</button>
+    <script>
+        function clickRequestBtn(){
+            console.log('call: clickRequestBtn');
+            socket.emit('request', 'hiSerdddver:::');
+        }
+    </script>
+    <script src="./node_modules/socket.io-client/dist/socket.io.js"></script>
+    <script>
+        var socket = io('http://localhost:3000');
+        socket.on('connect', function(){});
+        socket.on('request', function(data){
+            console.log('event::', data);
+        });
+        socket.on('disconnect', function(){});
+    </script>
+
+
+    <!--<script>-->
+        <!--// 웹소켓 전역 객체 생성-->
+        <!--var ws = new WebSocket("ws://localhost:3000");-->
+
+        <!--// 연결이 수립되면 서버에 메시지를 전송한다-->
+        <!--ws.onopen = function(event) {-->
+            <!--ws.send("Client message: Hi!");-->
+        <!--}-->
+
+        <!--// 서버로 부터 메시지를 수신한다-->
+        <!--ws.onmessage = function(event) {-->
+            <!--console.log("Server message: ", event.data);-->
+        <!--}-->
+
+        <!--// error event handler-->
+        <!--ws.onerror = function(event) {-->
+            <!--console.log("Server error message: ", event.data);-->
+        <!--}-->
+    <!--</script>-->
+</body>
+</html>
